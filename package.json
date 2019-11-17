@@ -1,0 +1,29 @@
+{
+  "name": "peopleprojectlifestyle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarryTate/PeopleProjectLifestyle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarryTate/PeopleProjectLifestyle/issues"
+  },
+  "homepage": "https://github.com/HarryTate/PeopleProjectLifestyle#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "sass": "^1.23.6"
+  }
+}
