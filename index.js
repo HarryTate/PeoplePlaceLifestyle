@@ -1,1 +1,2 @@
-const bootstrap = require('bootstrap');
+// const bootstrap = require('bootstrap');
+console.log("string");
