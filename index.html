@@ -4,50 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./scss/main.scss">
     <title>PPL | People Project Lifestyle </title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">PPL: People Projects Lifestyle</a>
+        <a class="navbar-brand" href="#"><img class="navbar-logo" src="/assets/img/logo.png" alt="PPL logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./projects.html">Projects</a>
+                    <a class="nav-link" href="/projects.html">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
+                    <a class="nav-link" href="/contact.html">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
     <main>
-        <section>
+        <section class="jumbotron jumbotron-fluid d-flex align-content-center justify-content-center hero__bg vh-75 mb-0">
+            <div class="container d-flex align-content-center justify-content-center">
+                <div class="row align-items-center justify-content-center d-flex">
+                    <div class="col-md-auto text-center">
+                        <h1 class="hero__title font-weight-light text-uppercase">PPL Architects</h1>
+                        <p class="hero__strapline">A RIBA chartered architects' practice based in Manchester</p>            
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid">
             <div class="row row-eq-height ">
                 <div class="col-md-6">
                     <div class="intro__main-text background--purple">
-                    <p class="font-weight-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quibusdam delectus non, nemo velit accusantium quasi cupiditate maxime nesciunt nihil.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sequi praesentium ab omnis ex sapiente quibusdam laborum id, ipsam voluptate.</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias unde esse tempora dicta, suscipit harum natus in autem soluta! Exercitationem, totam corrupti!</p>
-                    <a href="" class="btn btn-primary">Learn more</a>
-                </div>
+                        <p class="font-weight-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quibusdam delectus non, nemo velit accusantium quasi cupiditate maxime nesciunt nihil.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sequi praesentium ab omnis ex sapiente quibusdam laborum id, ipsam voluptate.</p>
+                        <a href="" class="btn btn-primary">Check out our most recent work</a>
+                    </div>
                 </div>
                 <div class="col-md-6 background--light-grey justify-content-center align-items-center d-flex">
                     <div class="intro__quote-text">
-                    <blockquote class="blockquote">
-                        <p class="mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."</p>
-                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                    </blockquote>
-                    <i class="fa fa-user"></i>
-                </div>
+                        <blockquote class="blockquote">
+                            <p class="mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."</p>
+                            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                        </blockquote>
+                        <i class="fa fa-user"></i>
+                    </div>
                 </div>
             </div>
+        </section>
+        <section class="section">
+            <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="mb-3">What do PPL stand for?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Style</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi maiores impedit exercitationem?</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Best Practice</h3>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, tempora enim. Quis, necessitatibus placeat.
+                </div>
+                <div class="col-md-4">
+                    <h3>Reliablity</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Creativity</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum eos error dolore ea quos laboriosam harum consequuntur facilis voluptatum.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Finesse</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam officiis culpa doloribus odit quas sint sunt quod!</p>
+                </div>
+            </div>
+        </div>
         </section>
     </main>
     <script src="./index.js"></script>
