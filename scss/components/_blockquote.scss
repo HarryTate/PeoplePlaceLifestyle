@@ -1,0 +1,32 @@
+.blockquote {
+    border: 3px solid $lightpink;
+    border-radius: 15px;
+    padding: 2.5rem;
+    &__text {
+        &:before, &:after {
+            font-family: 'Font Awesome 5 Free';
+            font-weight: bold;
+            vertical-align: super;
+            color: $lightpink;
+        }
+        &:before {
+            content: "\f10d";
+            padding-right: 0.3rem;
+            
+        }
+        &:after {
+            content: "\f10e";
+            padding-left: 0.3rem;
+        }
+        &-footer {
+            color: #21076a;
+        }
+    }
+    .intro{
+        &__main-text {
+            padding: 4rem 2.5rem;
+        }
+        
+    }
+    
+}

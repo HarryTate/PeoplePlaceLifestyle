@@ -1,0 +1,29 @@
+.icon {
+    &:before, &:after {
+        font-family: 'Font Awesome 5 Free';
+        color: #f8f9fa;
+    }
+    
+    &--mail-before {   
+        &:before {
+            content: "\f0e0";
+            padding-right: 0.3rem;
+            
+        }
+    }
+    &--telephone-before {   
+        &:before {
+            content: "\f879";
+            padding-right: 0.3rem;
+            font-weight: bold;
+        }
+    }
+    &--mobile-before {   
+        &:before {
+            content: "\f3cd";
+            padding-right: 0.3rem;
+            font-weight: bold;
+            
+        }
+    }
+}

@@ -1,0 +1,12 @@
+body {
+    font-family: "Nunito","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+a {
+    color: #212529;
+    &:hover {
+        color: #212529
+    }
+}
+.section {
+    padding: 60px 0;
+}
