@@ -1,0 +1,12 @@
+.page-footer {
+    background-color: #333;
+    padding: 40px 30px 20px 30px;
+}
+.footer {
+ &__heading {
+     font-size: 1.2rem;
+ }
+}
+.footer-copyright {
+    color: grey;
+}
