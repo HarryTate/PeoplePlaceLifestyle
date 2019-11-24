@@ -1,4 +1,4 @@
-.hero {
+.hero-home {
     &__bg {
         background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(243, 165, 193, .75)), url('/assets/img/hero-home.jpg');
         background-repeat: no-repeat;
@@ -12,5 +12,17 @@
     }
     &__strapline {
         font-size: 1.5rem;
+    }
+}
+.hero-services {   
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(243, 165, 193, .75)),url('/assets/img/services-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    &__title{
+        letter-spacing: .1rem;
+        font-size: 3.5rem;
+        color: #000;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
     }
 }
