@@ -1,0 +1,11 @@
+.values {
+    // background-image: url('/assets/img/white-buildings.jpg');
+    background-color: rgba(63, 67, 204, 0.85);
+    background-repeat: no-repeat;
+    // background-image: linear-gradient(rgba(63, 67, 204, 1), rgba(190, 112, 141, 1)), url("/assets/img/white-buildings.jpg");
+    background-size: cover;
+    color: #fff;
+    &__subtitle {
+        font-size: 1.3rem;
+    }
+}

@@ -14098,6 +14098,28 @@ a:hover {
   height: 75vh;
 }
 
+.btn:hover, .btn:focus {
+  box-shadow: 1px 2px #333;
+  transition: 0.4s ease;
+}
+.btn-primary {
+  background-color: #BE708D;
+  border-color: #BE708D;
+}
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #BE708D;
+  border-color: #BE708D;
+}
+.btn-outline {
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+.btn-outline:hover, .btn-outline:focus {
+  background-color: #fff;
+  color: #000;
+}
+
 .hero__bg {
   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(243, 165, 193, 0.75)), url("/hero-home.b2c3793e.jpg");
   background-repeat: no-repeat;
@@ -14139,8 +14161,21 @@ a:hover {
   padding: 4rem 2.5rem;
 }
 
+.service-promo__img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.service-promo__title {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+
 .icon:before, .icon:after {
   font-family: "Font Awesome 5 Free";
+  color: #f8f9fa;
+}
+.icon--mail-before a {
   color: #f8f9fa;
 }
 .icon--mail-before:before {
@@ -14156,6 +14191,38 @@ a:hover {
   content: "";
   padding-right: 0.3rem;
   font-weight: bold;
+}
+
+.stats {
+  background-color: #333;
+  color: #f8f9fa;
+}
+.stats__text {
+  text-align: center;
+  font-size: 1.4rem;
+}
+.stats__text span {
+  font-weight: bold;
+  display: block;
+  font-size: 1.8rem;
+}
+
+.contact-promo {
+  background-color: #BE708D;
+  padding: 100px 0;
+}
+.contact-promo__content {
+  text-align: center;
+}
+
+.values {
+  background-color: rgba(63, 67, 204, 0.85);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.values__subtitle {
+  font-size: 1.3rem;
 }
 
 .navbar {
@@ -14184,28 +14251,6 @@ a:hover {
 
 .footer-copyright {
   color: grey;
-}
-
-.values {
-  background-color: #3f43cc;
-}
-.values__title {
-  color: #fff;
-}
-.values__subtitle {
-  font-size: 1.3rem;
-  color: #fff;
-}
-.values__text {
-  color: #fff;
-}
-
-.contact-promo {
-  background-color: #BE708D;
-  padding: 100px 0;
-}
-.contact-promo__content {
-  text-align: center;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

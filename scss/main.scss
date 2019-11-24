@@ -3,17 +3,19 @@
 @import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
 
 // Abstracts
-@import "./variables";
-
-// Base
-@import "./base";
-@import "./helpers";
+@import "./abstracts/variables";
+@import "./abstracts/base";
+@import "./abstracts/helpers";
 
 // Components
+@import "./components/btn";
 @import "./components/hero";
 @import "./components/blockquote";
+@import "./components/service-promo";
 @import "./components/icons";
-
+@import "./components/stats";
+@import "./components/contact-promo";
+@import "./components/values";
 
 
 // Layouts
@@ -22,23 +24,3 @@
 
 
 
-.values {
-    background-color: #3f43cc;
-    &__title {
-        color: #fff;
-    }
-    &__subtitle {
-        font-size: 1.3rem;
-        color: #fff
-    }
-    &__text {
-        color: #fff;
-    }
-}
-.contact-promo {
-    background-color: $midpink;
-    padding: 100px 0;
-    &__content {
-        text-align: center;
-    }
-}
