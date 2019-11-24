@@ -1,0 +1,10 @@
+.btn-primary {
+    background-color: $midpink;
+    border-color: $midpink;
+    &:hover, &:focus {
+        background-color: $darkpink;
+        border-color: $darkpink;
+        transition: .3s ease;
+        box-shadow: 1px 2px #333;
+    }
+}

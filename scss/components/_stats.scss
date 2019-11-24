@@ -1,0 +1,14 @@
+.stats {
+    background-color: #333;
+    color: #f8f9fa;
+ &__text {
+    text-align: center;
+    font-size: 1.4rem;
+    span {
+        font-weight: bold;
+        display: block;
+        font-size: 1.8rem;
+    }
+ }
+
+}

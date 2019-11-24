@@ -4,7 +4,10 @@
         color: #f8f9fa;
     }
     
-    &--mail-before {   
+    &--mail-before { 
+        a {
+            color: #f8f9fa;
+            }   
         &:before {
             content: "\f0e0";
             padding-right: 0.3rem;
@@ -18,7 +21,7 @@
             font-weight: bold;
         }
     }
-    &--mobile-before {   
+    &--mobile-before {      
         &:before {
             content: "\f3cd";
             padding-right: 0.3rem;

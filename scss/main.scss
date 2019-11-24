@@ -10,10 +10,13 @@
 @import "./helpers";
 
 // Components
+@import "./components/btn";
 @import "./components/hero";
 @import "./components/blockquote";
 @import "./components/icons";
-
+@import "./components/stats";
+@import "./components/contact-promo";
+@import "./components/values";
 
 
 // Layouts
@@ -22,23 +25,3 @@
 
 
 
-.values {
-    background-color: #3f43cc;
-    &__title {
-        color: #fff;
-    }
-    &__subtitle {
-        font-size: 1.3rem;
-        color: #fff
-    }
-    &__text {
-        color: #fff;
-    }
-}
-.contact-promo {
-    background-color: $midpink;
-    padding: 100px 0;
-    &__content {
-        text-align: center;
-    }
-}
