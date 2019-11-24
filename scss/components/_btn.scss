@@ -1,10 +1,24 @@
-.btn-primary {
-    background-color: $midpink;
-    border-color: $midpink;
+.btn {
     &:hover, &:focus {
-        background-color: $darkpink;
-        border-color: $darkpink;
-        transition: .3s ease;
         box-shadow: 1px 2px #333;
+    transition: .4s ease;
+    }  
+    &-primary {
+        background-color: $midpink;
+        border-color: $midpink;
+        &:hover, &:focus {
+            background-color: $midpink;
+            border-color: $midpink;
+            
+        }
     }
-}
+    &-outline {
+        border: 2px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        &:hover, &:focus {
+            background-color: #fff;
+            color: #000;
+        }
+    }
+ }

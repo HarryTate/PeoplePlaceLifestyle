@@ -14098,15 +14098,26 @@ a:hover {
   height: 75vh;
 }
 
+.btn:hover, .btn:focus {
+  box-shadow: 1px 2px #333;
+  transition: 0.4s ease;
+}
 .btn-primary {
   background-color: #BE708D;
   border-color: #BE708D;
 }
 .btn-primary:hover, .btn-primary:focus {
-  background-color: #783D4C;
-  border-color: #783D4C;
-  transition: 0.3s ease;
-  box-shadow: 1px 2px #333;
+  background-color: #BE708D;
+  border-color: #BE708D;
+}
+.btn-outline {
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+.btn-outline:hover, .btn-outline:focus {
+  background-color: #fff;
+  color: #000;
 }
 
 .hero__bg {
@@ -14148,6 +14159,16 @@ a:hover {
 }
 .blockquote .intro__main-text {
   padding: 4rem 2.5rem;
+}
+
+.service-promo__img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.service-promo__title {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
 }
 
 .icon:before, .icon:after {
