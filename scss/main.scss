@@ -3,11 +3,9 @@
 @import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
 
 // Abstracts
-@import "./variables";
-
-// Base
-@import "./base";
-@import "./helpers";
+@import "./abstracts/variables";
+@import "./abstracts/base";
+@import "./abstracts/helpers";
 
 // Components
 @import "./components/btn";
