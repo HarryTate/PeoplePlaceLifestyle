@@ -1,3 +1,15 @@
+.vh-25 {
+    height: 25vh; 
+}
 .vh-75 {
     height: 75vh; 
+}
+.section--pink {
+    background-color: $lightpink;
+}
+.section--light-grey {
+    background-color: $lightgrey;
+}
+.hero--nav-spacer {
+    margin-top: 75px;
 }
