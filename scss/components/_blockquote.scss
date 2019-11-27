@@ -3,6 +3,8 @@
     border-radius: 15px;
     padding: 2.5rem;
     &__text {
+        font-size: 1rem;
+        margin-bottom: .5rem;
         &:before, &:after {
             font-family: 'Font Awesome 5 Free';
             font-weight: bold;
@@ -17,6 +19,7 @@
         &:after {
             content: "\f10e";
             padding-left: 0.3rem;
+            position: absolute;
         }
         &-footer {
             color: #21076a;

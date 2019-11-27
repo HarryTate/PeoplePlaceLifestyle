@@ -14107,7 +14107,7 @@ a:hover {
 }
 
 .section--light-grey {
-  background-color: #B1BBC9;
+  background-color: #f1f1f1;
 }
 
 .hero--nav-spacer {
@@ -14143,9 +14143,13 @@ a:hover {
   background-size: cover;
   background-attachment: fixed;
 }
+.hero-home__logo {
+  width: 75px;
+  margin-bottom: 1rem;
+}
 .hero-home__title {
   letter-spacing: 0.1rem;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 .hero-home__strapline {
   font-size: 1.5rem;
@@ -14169,6 +14173,10 @@ a:hover {
   border-radius: 15px;
   padding: 2.5rem;
 }
+.blockquote__text {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
 .blockquote__text:before, .blockquote__text:after {
   font-family: "Font Awesome 5 Free";
   font-weight: bold;
@@ -14182,6 +14190,7 @@ a:hover {
 .blockquote__text:after {
   content: "";
   padding-left: 0.3rem;
+  position: absolute;
 }
 .blockquote__text-footer {
   color: #21076a;
@@ -14193,6 +14202,7 @@ a:hover {
 .service-promo__img {
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
+  width: 200px;
 }
 .service-promo__title {
   font-size: 1.2rem;
