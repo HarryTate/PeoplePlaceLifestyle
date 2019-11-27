@@ -6,9 +6,13 @@
         background-size: cover;
         background-attachment: fixed;
     }
+    &__logo {
+        width: 75px;
+        margin-bottom: 1rem;
+    }
     &__title {
         letter-spacing: .1rem;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
     &__strapline {
         font-size: 1.5rem;
