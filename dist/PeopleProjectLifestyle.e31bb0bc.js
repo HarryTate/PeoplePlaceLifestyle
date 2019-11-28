@@ -17983,21 +17983,30 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
   });
 });
 },{"jquery":"node_modules/jquery/dist/jquery.js","popper.js":"node_modules/popper.js/dist/esm/popper.js"}],"js/googlemaps.js":[function(require,module,exports) {
-var map;
+module.exports = function initMap() {
+  var map; // The location of Uluru
 
-function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {
-      lat: -34.397,
-      lng: 150.644
-    },
-    zoom: 8
+  var uluru = {
+    lat: -25.344,
+    lng: 131.036
+  }; // The map, centered at Uluru
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: uluru
+  }); // The marker, positioned at Uluru
+
+  var marker = new google.maps.Marker({
+    position: uluru,
+    map: map
   });
-}
+};
 },{}],"index.js":[function(require,module,exports) {
 var bootstrap = require('bootstrap');
 
 var map = require('./js/googlemaps');
+
+initMap();
 },{"bootstrap":"node_modules/bootstrap/dist/js/bootstrap.js","./js/googlemaps":"js/googlemaps.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -18026,7 +18035,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56914" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57414" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
