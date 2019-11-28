@@ -17983,17 +17983,24 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
   });
 });
 },{"jquery":"node_modules/jquery/dist/jquery.js","popper.js":"node_modules/popper.js/dist/esm/popper.js"}],"js/googlemaps.js":[function(require,module,exports) {
-var map;
+module.exports = function initMap() {
+  var map; // The location of Uluru
 
-function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {
-      lat: -34.397,
-      lng: 150.644
-    },
-    zoom: 8
+  var uluru = {
+    lat: -25.344,
+    lng: 131.036
+  }; // The map, centered at Uluru
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: uluru
+  }); // The marker, positioned at Uluru
+
+  var marker = new google.maps.Marker({
+    position: uluru,
+    map: map
   });
-}
+};
 },{}],"index.js":[function(require,module,exports) {
 var bootstrap = require('bootstrap');
 
@@ -18026,7 +18033,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56914" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63905" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
