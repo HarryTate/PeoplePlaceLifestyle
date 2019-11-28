@@ -18005,6 +18005,8 @@ module.exports = function initMap() {
 var bootstrap = require('bootstrap');
 
 var map = require('./js/googlemaps');
+
+initMap();
 },{"bootstrap":"node_modules/bootstrap/dist/js/bootstrap.js","./js/googlemaps":"js/googlemaps.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -18033,7 +18035,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63905" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57414" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
