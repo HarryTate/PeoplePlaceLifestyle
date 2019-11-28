@@ -14080,7 +14080,7 @@ h3 {
   }
 }
 body {
-  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: century gothic, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -14263,10 +14263,9 @@ a:hover {
 }
 
 .values {
-  background-color: rgba(63, 67, 204, 0.85);
+  background-color: #a5b3c0;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
 }
 .values__subtitle {
   font-size: 1.3rem;
