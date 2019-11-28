@@ -14168,6 +14168,10 @@ a:hover {
   text-transform: uppercase;
 }
 
+.hero-contact {
+  background-color: #3f3ff3;
+}
+
 .blockquote {
   border: 3px solid #F3A5C1;
   border-radius: 15px;
@@ -14268,6 +14272,7 @@ a:hover {
   font-size: 1.3rem;
   margin-top: 1rem;
 }
+
 .navbar {
   box-shadow: -1px 4px 6px -6px #999;
   padding: 0.5rem 2rem;
