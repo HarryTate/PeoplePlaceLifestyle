@@ -14114,6 +14114,10 @@ a:hover {
   margin-top: 75px;
 }
 
+#map {
+  height: 100%;
+}
+
 .btn:hover, .btn:focus {
   box-shadow: 1px 1px 1px #333;
   transition: 0.3s ease;
@@ -14216,10 +14220,6 @@ a:hover {
 
 .icon:before, .icon:after {
   font-family: "Font Awesome 5 Free";
-  color: #f8f9fa;
-}
-.icon--mail-before a {
-  color: #f8f9fa;
 }
 .icon--mail-before:before {
   content: "";

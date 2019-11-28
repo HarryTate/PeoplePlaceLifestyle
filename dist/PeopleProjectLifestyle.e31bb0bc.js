@@ -17982,9 +17982,23 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
     value: true
   });
 });
-},{"jquery":"node_modules/jquery/dist/jquery.js","popper.js":"node_modules/popper.js/dist/esm/popper.js"}],"index.js":[function(require,module,exports) {
+},{"jquery":"node_modules/jquery/dist/jquery.js","popper.js":"node_modules/popper.js/dist/esm/popper.js"}],"js/googlemaps.js":[function(require,module,exports) {
+var map;
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {
+      lat: -34.397,
+      lng: 150.644
+    },
+    zoom: 8
+  });
+}
+},{}],"index.js":[function(require,module,exports) {
 var bootstrap = require('bootstrap');
-},{"bootstrap":"node_modules/bootstrap/dist/js/bootstrap.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+
+var map = require('./js/googlemaps');
+},{"bootstrap":"node_modules/bootstrap/dist/js/bootstrap.js","./js/googlemaps":"js/googlemaps.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -18012,7 +18026,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50219" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56914" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -1,12 +1,12 @@
 .icon {
     &:before, &:after {
         font-family: 'Font Awesome 5 Free';
-        color: #f8f9fa;
+        // color: #f8f9fa;
     }
     
     &--mail-before { 
         a {
-            color: #f8f9fa;
+            // color: #f8f9fa;
             }   
         &:before {
             content: "\f0e0";
