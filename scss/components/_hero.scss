@@ -31,5 +31,12 @@
     }
 }
 .hero-contact {
-    background-color: #3f3ff3;
+    background-color: #a5b3c0;
+    &__title{
+        letter-spacing: .1rem;
+        font-size: 3.5rem;
+        color: #000;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+    }
 }

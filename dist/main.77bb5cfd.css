@@ -14079,6 +14079,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: century gothic, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -14177,7 +14181,14 @@ a:hover {
 }
 
 .hero-contact {
-  background-color: #3f3ff3;
+  background-color: #a5b3c0;
+}
+.hero-contact__title {
+  letter-spacing: 0.1rem;
+  font-size: 3.5rem;
+  color: #000;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
 }
 
 .blockquote {
